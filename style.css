@@ -1,0 +1,85 @@
+html,
+body {
+    height: 100%;
+
+}
+
+.calculator {
+    width: 300px;
+    background-color: rgb(172, 216, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 6px 5px;
+    box-shadow: rgba(0, 0, 0, 0.75);
+    text-align: center;
+
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul li {
+    width: 15%;
+    padding: 10px;
+    float: left;
+    list-style: none;
+    background-color: white;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #a5a5a5, 0 2px 5px rgba(0, 0, 0, 0.75)
+}
+
+ul li:active {
+    position: relative;
+    top: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+ul li:nth-child(16) {
+    border: 1px solid white;
+    height: 70px;
+    float: right;
+    margin-top: -44px;
+}
+
+ul li:last-child {
+    width: 65%;
+    margin-top: -48px;
+}
+
+.signature {
+    color: #fff;
+    font-size: 0.75rem;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    text-align: right;
+    z-index: -1;
+
+}
+
+
+.result {
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 0 5px 0 0;
+    height: 50px;
+    width: 90%;
+    text-align: right;
+    font-size: 35px;
+    line-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 5px;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5), inset 0 2px 0 rgba(0, 0, 0, 0.5);
+}
